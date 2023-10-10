@@ -8,7 +8,7 @@
         "RealTimeFeedUrl": "https://s3.amazonaws.com/kcm-alerts-realtime-prod/vehiclepositions_enhanced.json",
         "LogicAppUrl": "",
         "AzureSQLConnectionString": "Server=tcp:bus-server979628.database.windows.net,1433;Database=bus-db;User ID=cloudadmin;Password=F91##cuon5am;Encrypt=true;Connection Timeout=30;",
-        "SCM_DO_BUILD_DURING_DEPLOYMENT": "false",
-        "ENABLE_ORYX_BUILD": "false"
+        "SCM_DO_BUILD_DURING_DEPLOYMENT": "true",
+        "ENABLE_ORYX_BUILD": "true"
   }
 }
