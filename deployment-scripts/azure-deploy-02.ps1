@@ -24,8 +24,8 @@ $functionApp = New-AzFunctionApp -Name $azureFunctionName `
 #>
 
 # Uncomment to deploy Azure Function for node
-<#
+<
 $functionApp = New-AzFunctionApp -Name $azureFunctionName `
     -ResourceGroupName $resourceGroupName -StorageAccount $storageAccountName `
     -FunctionsVersion 3 -RunTimeVersion 12 -Runtime node -Location $location
-#>
+>
